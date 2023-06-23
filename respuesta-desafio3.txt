@@ -1,0 +1,19 @@
+mkdir website	
+cd website 
+git init 
+touch status.js
+git add status.js 
+git commit -m "Status"
+git remote add origin https://github.com/Abimower/Website-Desaf-03.git
+git push origin master
+git branch custom-navbar
+touch navbar.txt
+git add navbar.txt
+git commit -m "Se crea la rama y se trabaja en ella"
+vim navbar.txt
+git push
+git push --set-upstream origin custom-navbar
+vim status.js
+git checkout master
+git stash
+git checkout master
