@@ -17,3 +17,7 @@ vim status.js
 git checkout master
 git stash
 git checkout master
+rm status.js	
+git add .
+git commit -m " Se borra status"
+git push
