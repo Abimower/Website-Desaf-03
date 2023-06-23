@@ -17,4 +17,6 @@ vim status.js
 git checkout master
 git stash
 git checkout master
-
+rm status.js
+git checkout custom-navbar
+git stash pop
