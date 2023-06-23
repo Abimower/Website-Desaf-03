@@ -21,3 +21,5 @@ rm status.js
 git add .
 git commit -m " Se borra status"
 git push
+git checkout custom-navbar
+git stash pop
